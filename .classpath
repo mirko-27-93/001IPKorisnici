@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src.user"/>
+	<classpathentry kind="src" path="src.tld"/>
+	<classpathentry kind="src" path="src.process"/>
+	<classpathentry kind="src" path="src.process.learn.test"/>
+	<classpathentry kind="src" path="src.user.learning.test"/>
+	<classpathentry kind="src" path="src.user.country"/>
+	<classpathentry kind="src" path="src.user.country.test"/>
+	<classpathentry kind="src" path="src.web.app"/>
+	<classpathentry kind="src" path="src.application"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-14.0.1">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-8.0.20.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/xom-1.3.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jstl-impl-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/asm-7.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jsonp-2.7.0.Final.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jsonb-2.7.0.Final.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/yasson-1.0.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/logging-2.7.0.Final.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.json.bind-api-1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-digester-1.8.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-fileupload-1.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

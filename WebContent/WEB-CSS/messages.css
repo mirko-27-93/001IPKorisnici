@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.success{
+	color: lime; 
+	background-color: green; 
+}
+
+.error{
+	color: orange; 
+	background-color: red; 
+}
+
+.success a{
+	color: lime; 
+}
+
+.error a{
+	color: orange; 
+}

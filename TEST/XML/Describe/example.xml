@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<desc:describe xmlns:desc="http://www.yatospace.org/describe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.yatospace.org/describe describe.xsd ">
+	<desc:element><a>ELEMENT</a></desc:element>
+	<desc:info>INFO</desc:info>
+</desc:describe>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.yatospace.com/webcontext" xsi:schemaLocation="https://www.yatospace.com/webcontext context.xsd">
+	<Resource 
+		name="jdbc/testdb" 
+		auth="Container"
+		type="javax.sql.DataSource" 
+		username="root" 
+		password="root"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/ip?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;characterSetResults=utf8&amp;connectionCollation=utf8_general_ci"
+		maxActive="10" maxIdle="4" />
+</Context>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.yatospace.com/webcontext">
+  <xs:element name="Context">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Resource">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="name"/>
+                <xs:attribute type="xs:string" name="auth"/>
+                <xs:attribute type="xs:string" name="type"/>
+                <xs:attribute type="xs:string" name="username"/>
+                <xs:attribute type="xs:string" name="password"/>
+                <xs:attribute type="xs:string" name="driverClassName"/>
+                <xs:attribute type="xs:string" name="url"/>
+                <xs:attribute type="xs:byte" name="maxActive"/>
+                <xs:attribute type="xs:byte" name="maxIdle"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

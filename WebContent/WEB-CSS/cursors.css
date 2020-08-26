@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.pointer{
+	cursor: pointer;
+}
+
+.pointerable{
+	cursor: pointer;
+}
+
+.reference{
+	cursor: url(../WEB-CURSORS/pointer.ani),auto;
+}
+
+.referencable{
+	cursor: url(../WEB-CURSORS/pointer.ani),auto;
+}

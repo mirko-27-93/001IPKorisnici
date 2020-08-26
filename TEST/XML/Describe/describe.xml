@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<desc:describe xmlns:desc="http://www.yatospace.org/describe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.yatospace.org/describe describe.xsd ">
+	<desc:element>
+		<b>Ово је неки наслов</b>
+	</desc:element>
+	<desc:info>
+		<dl>
+			<dt>За овај текст треба знати</dt>
+			<dl>Да има свој наслов</dl>
+			<dl>Да има опис тог наслова</dl>
+		</dl>
+	</desc:info>
+</desc:describe>

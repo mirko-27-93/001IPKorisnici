@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.yatospace.org/describe" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:desc="http://www.yatospace.org/describe">
+
+    <complexType name="Describe">
+    	<sequence>
+            <element name="element" type="desc:Element" minOccurs="1" maxOccurs="1"></element>
+            <element name="info" type="desc:Info" minOccurs="0" maxOccurs="1"></element>
+            
+    	</sequence>
+    </complexType>
+
+    <element name="describe" type="desc:Describe"></element>
+
+    <complexType name="Element" mixed='true'>
+	    <sequence>
+	    	<any minOccurs="0" maxOccurs="1" processContents="skip"></any>
+	    </sequence>
+    </complexType>
+
+    <complexType name="Info" mixed='true'>
+    	<sequence>
+    		<any minOccurs="0" maxOccurs="1" processContents="skip"></any>
+    	</sequence>
+    </complexType>
+</schema>

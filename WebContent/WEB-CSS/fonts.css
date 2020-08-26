@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+ /* WOFF архива фонтова */
+/* YI Courier New      */
+
+@font-face {
+   font-family: "YI Courier New";
+   src: url("../WEB-FONT/cour.ttf");
+}
+
+.machine_font {
+	font-family: 'YI Courier New';
+}

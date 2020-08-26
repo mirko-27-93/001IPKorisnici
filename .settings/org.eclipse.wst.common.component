@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <wb-module deploy-name="001IPKorisnici">
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                                        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.user"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.tld"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.process"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.process.learn.test"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.user.learning.test"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.user.country"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.user.country.test"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.web.app"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src.application"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <property name="java-output-path" value="/001IPKorisnici/build/classes"/>
+                                                                
+        
+        
+        
+        
+        
+        
+        <property name="context-root" value="001IPKorisnici"/>
+                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    </wb-module>
+                                    
+
+
+
+
+
+
+
+
+</project-modules>
